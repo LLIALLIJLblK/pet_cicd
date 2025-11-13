@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import List, Optional
+from typing import Optional
 from enum import Enum
 
 class PetType(str, Enum):
